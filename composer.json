@@ -1,0 +1,17 @@
+{
+    "name": "urfu/LastName", "type": "project", "description": "LabWork", "license": "MIT", "autoload": {
+     
+    "psr-4": {
+    "App\\": "src/"
+    }
+    }
+    }
+    1.	 Create a file index.php
+    2.	 Create a folder src
+    3.	 Create a file src/.gitkeep
+    4.	4. Run the command composer dump-autoload
+    5.	5. In the index.php file, insert
+    <?php
+    
+    require 'vendor/autoload.php';
+    
